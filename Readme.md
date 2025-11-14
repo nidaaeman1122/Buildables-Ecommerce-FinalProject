@@ -116,3 +116,5 @@ Eman Mudassir
 If you have any questions, suggestions, or feedback, feel free to connect with me:
 
 GitHub: https://github.com/nidaaman1122
+NetLiFy Link:https://shopco-final.netlify.app/
+
