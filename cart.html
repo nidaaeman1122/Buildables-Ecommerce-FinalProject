@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - SHOP.CO</title>
+  <link rel="stylesheet" href="assets/css/styling.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <div class="top-banner">
+    <p>Sign up and get 20% off your first order. <a href="#">Sign Up Now</a></p>
+    <button class="close-banner">×</button>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">SHOP.CO</div>
+    <nav class="nav">
+      <a href="#">Shop</a>
+      <a href="#">On Sale</a>
+      <a href="#">New Arrivals</a>
+      <a href="#">Brands</a>
+    </nav>
+    <div class="search">
+      <i class="fas fa-search"></i>
+      <input type="text" placeholder="Search for products..."/>
+    </div>
+    <div class="icons">
+      <a href="#" class="cart">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="badge">3</span>
+      </a>
+      <a href="#" class="user"><i class="far fa-user"></i></a>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="#">Home</a> > <span>Cart</span>
+  </div>
+
+  <!-- Main Cart -->
+  <main class="main">
+    <h1>YOUR CART</h1>
+    <div class="cart-grid">
+      <!-- Cart Items -->
+      <div class="items">
+        <!-- Item 1 -->
+        <div class="item">
+          <img src="assets/img/image 8 (1).png" alt="T-shirt">
+          <div class="info">
+            <h3>Gradient Graphic T-shirt</h3>
+            <p>Size: Large</p>
+            <p>Color: White</p>
+            <div class="price-qty">
+              <span class="price">$145</span>
+              <div class="qty">
+                <button class="btn minus">-</button>
+                <span class="num">1</span>
+                <button class="btn plus">+</button>
+              </div>
+            </div>
+          </div>
+          <button class="remove"><i class="fas fa-trash"></i></button>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="item">
+          <img src="assets/img/image 8.png" alt="Shirt">
+          <div class="info">
+            <h3>Checked Shirt</h3>
+            <p>Size: Medium</p>
+            <p>Color: Red</p>
+            <div class="price-qty">
+              <span class="price">$180</span>
+              <div class="qty">
+                <button class="btn minus">-</button>
+                <span class="num">1</span>
+                <button class="btn plus">+</button>
+              </div>
+            </div>
+          </div>
+          <button class="remove"><i class="fas fa-trash"></i></button>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item">
+          <img src="assets/img/image 9.png" alt="Jeans">
+          <div class="info">
+            <h3>Skinny Fit Jeans</h3>
+            <p>Size: Large</p>
+            <p>Color: Blue</p>
+            <div class="price-qty">
+              <span class="price">$240</span>
+              <div class="qty">
+                <button class="btn minus">-</button>
+                <span class="num">1</span>
+                <button class="btn plus">+</button>
+              </div>
+            </div>
+          </div>
+          <button class="remove"><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+
+      <!-- Order Summary -->
+      <div class="summary">
+        <h2>Order Summary</h2>
+        <div class="row">
+          <span>Subtotal</span>
+          <span class="subtotal">$565</span>
+        </div>
+        <div class="row discount">
+          <span>Discount (-20%)</span>
+          <span class="disc">- $113</span>
+        </div>
+        <div class="row">
+          <span>Delivery Fee</span>
+          <span>$15</span>
+        </div>
+        <div class="promo">
+          <input type="text" placeholder="Add promo code"/>
+          <button class="apply">Apply</button>
+        </div>
+        <div class="row total">
+          <span>Total</span>
+          <span class="total">$467</span>
+        </div>
+        <button class="checkout">Go to Checkout →</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <h3>STAY UPTO DATE ABOUT<br>OUR LATEST OFFERS</h3>
+    <div class="form">
+      <input type="email" placeholder="Enter your email address"/>
+      <button>Subscribe to Newsletter</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="grid">
+      <div class="col logo-col">
+        <h4>SHOP.CO</h4>
+        <p>We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+      <div class="col">
+        <h4>COMPANY</h4>
+        <a href="#">About</a>
+        <a href="#">Features</a>
+        <a href="#">Works</a>
+        <a href="#">Career</a>
+      </div>
+      <div class="col">
+        <h4>HELP</h4>
+        <a href="#">Customer Support</a>
+        <a href="#">Delivery Details</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="col">
+        <h4>FAQ</h4>
+        <a href="#">Account</a>
+        <a href="#">Manage Deliveries</a>
+        <a href="#">Orders</a>
+        <a href="#">Payments</a>
+      </div>
+      <div class="col">
+        <h4>RESOURCES</h4>
+        <a href="#">Free eBooks</a>
+        <a href="#">Development Tutorial</a>
+        <a href="#">How to - Blog</a>
+        <a href="#">Youtube Playlist</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>Shop.co © 2000-2023, All Rights Reserved</p>
+      <div class="payments">
+        <img src="assets/img/Badge.png" alt="Visa">
+        <img src="assets/img/Badge (1).png" alt="Mastercard">
+        <img src="assets/img/Badge (2).png" alt="Paypal">
+        <img src="assets/img/ipay.png" alt="Apple Pay">
+        <img src="assets/img/Badge (3).png" alt="Google Pay">
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/cart.js"></script>
+</body>
+</html>
