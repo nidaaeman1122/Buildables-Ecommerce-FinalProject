@@ -1,55 +1,118 @@
-🛒 Buildables E-commerce Project
-💡 Overview
-This is a responsive, modern e-commerce front-end website built as a final project. The design is based on a Figma template, providing a clean, contemporary user experience for browsing products.
+🛒 Buildables E-Commerce Project
+📌 Overview
 
-The project demonstrates proficiency in structuring content with HTML, styling with CSS, and ensuring cross-device compatibility with media queries.
+Buildables is a modern, fully responsive front-end e-commerce website created as a final web-development project.
+The UI is inspired by a professional Figma design and focuses on delivering a clean, stylish, and user-friendly shopping experience.
+
+This project demonstrates strong skills in:
+
+Semantic HTML structure
+
+Organized & scalable CSS
+
+Mobile-friendly layouts using media queries
+
+Interactive components powered by JavaScript
 
 🚀 Features
-Responsive Design: Optimized layout for different screen sizes, including desktop (shown in Figma screenshots) and mobile views (shown in DevTools/browser screenshots).
+✅ Fully Responsive Design
 
-Hero Section: A visually appealing introductory section with key statistics (200+ Brands, 2,000+ Products, 30,000+ Customers) and prominent brand logos (Versace, Zara, Gucci, Prada, Calvin Klein).
+Adapts smoothly across all screen sizes — desktop, tablet, and mobile (tested using Figma designs & browser DevTools).
 
-Product Display: Dedicated sections for New Arrivals and Top Selling products presented in a grid format.
+🎯 Hero Section
 
-Browse by Dress Style: A dedicated section that allows users to filter or browse products by style categories (Casual, Formal, Party, Gym), implemented using a CSS Grid layout.
+Includes:
 
-Testimonials/Customer Reviews: A carousel or scrolling section showcasing customer feedback.
+Key brand statistics
 
-Newsletter Banner: A clear call-to-action for users to subscribe to the newsletter for offers.
+200+ Brands
 
-Footer Navigation: Comprehensive footer with company links, help information, FAQ, and resources.
+2,000+ Products
+
+30,000+ Customers
+
+Popular brand logos: Versace, Zara, Gucci, Prada, Calvin Klein
+
+🛍️ Product Sections
+
+New Arrivals
+
+Top Selling
+Displayed using a modern grid layout.
+
+👗 Browse by Dress Style
+
+A grid-based section that lets users explore styles such as:
+
+Casual
+
+Formal
+
+Party
+
+Gym
+
+⭐ Customer Testimonials
+
+A dedicated review section with smooth scrolling/carousel-style layout.
+
+📬 Newsletter Subscription
+
+A prominent banner encouraging users to subscribe for updates & offers.
+
+🧭 Footer Navigation
+
+Includes:
+
+Company Information
+
+Help Section
+
+FAQs
+
+Resources and Quick Links
 
 ⚙️ Technologies Used
-HTML5 (for structure, e.g., index.html, cart.html, category.html, product-detail.html)
+Technology	Purpose
+HTML5	Page structure (e.g., index.html, cart.html, category.html, product-detail.html)
+CSS3	Styling, custom variables, grid & responsive design
+JavaScript (ES6)	Interactivity and dynamic behaviors (via script.js)
+💻 Installation & Setup
 
-CSS3 (for styling, including use of CSS Variables and Grid Layout as seen in styles.css)
+Follow these steps to run the project locally:
 
-JavaScript (for interactivity, as indicated by script.js)
-
-💻 Installation and Setup
-To get a local copy up and running, follow these simple steps:
-
-Clone the Repository:
-
-Bash
-
+1️⃣ Clone the Repository
 git clone https://github.com/nidaaman1122/Buildables-Ecommerce-FinalProject.git
-Navigate to the Project Directory:
 
-Bash
-
+2️⃣ Open the Project Folder
 cd Buildables-Ecommerce-FinalProject
-Open the Project: Simply open the index.html file in your preferred web browser. Since this is primarily a front-end project, no server-side setup is required.
 
-🖼️ Design Reference
-The design and layout of this project were inspired by the following e-commerce template:
+3️⃣ Run the Website
 
-Link to the Figma Template (E-commerce Website Template Freebie)
+Simply open the index.html file in any browser.
+
+⚠️ No backend/server setup is required — this is a front-end project.
+
+🎨 Design Reference
+
+This project is based on the following Figma template:
+
+👉 E-commerce Website Template Freebie
+(Insert Figma link here if available)
+
+👥 Team Members
+
+Nida Eman (GitHub: https://github.com/nidaaman1122
+)
+
+Neha Farooq
+
+Mishal Khusnood
+
+Eman Mudassir
 
 🤝 Contact
-Created by nidaaman1122 - Feel free to connect or ask questions!
-Group Members: Neha Farooq ,
-              Mishal Khusnood,
-              Eman Mudassir
 
-GitHub Profile: https://github.com/nidaaman1122 (or replace with your actual link)
+If you have any questions, suggestions, or feedback, feel free to connect with me:
+
+GitHub: https://github.com/nidaaman1122
